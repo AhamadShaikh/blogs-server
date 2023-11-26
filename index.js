@@ -5,7 +5,7 @@ const app = express()
 require("dotenv").config()
 const cors = require("cors")
 const userRouter = require("./routes/userRoutes")
-const blogsRouter = require("./routes/blogRoutes")
+const blogsRouter = require("./routes/blogsRoutes")
 
 app.use(express.json())
 
