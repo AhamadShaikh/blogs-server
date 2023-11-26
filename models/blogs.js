@@ -21,3 +21,14 @@ const BlogsSchema = new mongoose.Schema({
 const Blogs = mongoose.model("Blogs", BlogsSchema);
 
 module.exports = Blogs;
+
+
+// {
+//     "username": "author",
+//     "title": "Sample Blog",
+//     "content": "This is a sample blog post.",
+//     "category": "Business",
+//     "date": "2023-11-24",
+//     "likes": [],
+//     "comments":[]
+// }
