@@ -19,8 +19,9 @@ const connection = async () => {
 }
 
 app.use(cors({
-    origin: "http://localhost:3000"
-}))
+    origin: "http://localhost:3000",
+    credentials: true
+}));
 
 app.use("/api", userRouter)
 app.use("/api", blogsRouter)
